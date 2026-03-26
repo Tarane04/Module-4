@@ -1,5 +1,4 @@
-# Exp.No:20  
-## SEB - ARITHMETIC CALCULATION USING CLASS
+# Exp.No:4E-SEB - ARITHMETIC CALCULATION USING CLASS
 
 ---
 
@@ -35,11 +34,37 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
+# Reg.No: 212222060271
+# Name: TARANE G
 
-
+class cse:
+    def __init__(self, a, b):
+        self.a=a
+        self.b=b
+    def mod(self):
+        return self.a%self.b
+    def div(self):
+        return self.a//self.b
+a=int(input())
+b=int(input())
+obj=cse(a, b)
+obj.mod()
+obj.div()
+choice=1
+while choice!=0:
+    choice=int(input())
+    if choice==1:
+        print("Result: ", obj.mod())
+    elif choice==2:
+        print("Result: ", obj.div())
+    else:
+        print("Exiting!")
+print()
 
 ```
 
 ### OUTPUT
+<img width="678" height="448" alt="image" src="https://github.com/user-attachments/assets/50cd012d-0362-4e11-82df-ea05733313b4" />
 
 ### RESULT
+Thus the Python program to perform addition and division operations using a class was implemented and executed successfully.
